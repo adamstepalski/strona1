@@ -31,7 +31,7 @@ main {
     background-color: var(--dark);
     border-radius: var(--bor);
 
-    width: 100px;
+    width: 180px;
     height: 270px;
 
     float: left;
@@ -39,7 +39,7 @@ main {
 
 nav a {
 
-    min-width: 100px;
+    min-width: 180px;
     min-height: 54px;
 
     padding-top: 36px;
@@ -48,7 +48,7 @@ nav a {
 
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
 
 }
 
@@ -126,6 +126,8 @@ a#kontakt:hover {
     margin-top: 3vh;
     padding: 30px;
 
+    font-size: 30px;
+
 }
 
 #obrazy {
@@ -145,6 +147,12 @@ a#kontakt:hover {
     margin-left: 3vw;
     margin-right: 2%;
     margin-bottom: 2vh;
+
+}
+
+.ob:hover {
+
+    border: 3px solid white;
 
 }
 
